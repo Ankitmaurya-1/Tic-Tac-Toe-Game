@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div class="msg-container hide">
+      <p id="msg"></p>
+      <button id="new-btn">New Game</button>
+    </div>
+    <main>
+      <h1>Tic Tac Toe </h1>
+      <div class="container">
+        <div id="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          
+        </div>
+        <button id="reset-btn">Reset Game</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
   </body>
+
 </html>
